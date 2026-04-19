@@ -1,4 +1,4 @@
-# Docker Variant 2 Homework Шишмаков Михаил АлгБио 1 курс ФБМФ МФТИ
+# Docker Variant 2 Homework Шишмаков Михаил 
 
 ## Что делает проект
 
