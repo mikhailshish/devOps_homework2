@@ -29,23 +29,21 @@
 ```bash
 git clone https://github.com/mikhailshish/devOps_homework2.git
 cd devOps_homework2
-2. Собрать Docker-образ
+### 2. Собрать Docker-образ
 docker build -t my-web .
-3. Запустить контейнер
+### 3. Запустить контейнер
 docker run -d -p 8080:8080 --name app my-web
-4. Открыть приложение в браузере
+### 4. Открыть приложение в браузере
 
-Открыть в браузере:
-
+### Открыть в браузере:
 http://localhost:8080
-Проверка работы контейнера
-Посмотреть логи контейнера
+### Проверка работы контейнера
+### Посмотреть логи контейнера
 docker logs app
-Проверить health endpoint
+### Проверить health endpoint
 curl http://localhost:8080/health
 
-Ожидаемый ответ:
-{"app":"Docker Homework App","status":"ok"}
+### Ожидаемый ответ: {"app":"Docker Homework App","status":"ok"}
 
-Как остановить и удалить контейнер
+### Как остановить и удалить контейнер
 docker stop app && docker rm app
