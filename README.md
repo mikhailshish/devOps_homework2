@@ -35,8 +35,7 @@ docker build -t my-web .
 docker run -d -p 8080:8080 --name app my-web
 ### 4. Открыть приложение в браузере
 
-### Открыть в браузере:
-http://localhost:8080
+### Открыть в браузере: http://localhost:8080
 ### Проверка работы контейнера
 ### Посмотреть логи контейнера
 docker logs app
